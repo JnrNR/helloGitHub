@@ -15,11 +15,13 @@ public class Main {
         Resta objetoResta = new Resta();
         Multiplicacion mul = new Multiplicacion();
         
-        objetoResta.cantidad1 = 20;
+        objetoResta.cantidad1 = 32;
         objetoResta.cantidad2 = 5;
         
         System.out.println("La resta es: " + objetoResta.resta());
         System.out.println("5*5="+mul.multiplica());
+        
+        System.out.println("Esta es una prueba en un branch");
         
     }
     
